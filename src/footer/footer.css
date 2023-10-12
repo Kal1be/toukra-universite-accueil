@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gabarito:wght@600;700&family=Lato:wght@300;700&family=Merriweather:wght@900&family=Oswald:wght@400;500;600&family=Poppins:wght@500&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&family=Roboto:wght@400;500;700;900&family=Rubik:wght@500&display=swap'); 
+
+#containerfooter{
+    background-color: whitesmoke;
+   margin-top: 50px;
+   align-items: center;
+   padding-top: 40px;
+   padding-left: 60px;
+   padding-right: 60px;
+}
+#containerfooter h3{
+  font-family: "Roboto";
+  font-weight: bold;
+}
+#containerfooter p{
+  font-family: "Roboto";
+  font-size: 22px;
+  color: gray;
+  line-height: 2.5rem;
+}
+#containerfooter ul li{
+  font-family: "Roboto";
+  font-size: 22px;
+  color: gray;
+  line-height: 2.5rem;
+  transition: color .2s ease;
+  cursor: pointer;
+}
+#containerfooter ul li:hover{
+  color: rgb(85, 130, 255);
+}
+
+.divide {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    margin-left: 55px;
+    margin-top: -19px;
+  }
+  .divide img{
+    width: 18px !important;
+    height: 18px !important;
+    object-fit: contain !important;
+  }
+  
+  .divide::before, .divide::after {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color:rgb(5, 72, 196);
+    margin: 5px;
+  }
+  .iconfooter{
+    margin: 0 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: rgb(39, 113, 252);
+    padding: 8px;
+    border: 1px solid rgb(39, 113, 252);
+    transition: color,border .33s linear;
+  }
+  .iconfooter:hover{
+border: 1px solid rgb(36, 110, 248);
+background-color: rgb(39, 113, 252);
+color: white;
+  }
+  #endfooter span{
+   font-size: 18px;
+   font-family: "Roboto";
+   color: gray;
+  }
+
+  @media (max-width:800px){
+    #containerfooter{
+      background-color: whitesmoke;
+     margin-top: 50px;
+     align-items: center;
+     padding-top: 10px;
+     padding-left: 2px;
+     padding-right: 2px;
+     padding-bottom: 10px;
+  }
+  .divide {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    margin-left: 45px;
+    margin-top: -19px;
+  }
+  #containerfooter p{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: gray;
+    line-height: 2.2rem;
+    padding:0 16px;
+  }
+  .iconfooter{
+    margin: 0 9px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    color: rgb(39, 113, 252);
+    padding: 8px;
+    border: 1px solid rgb(39, 113, 252);
+    transition: color,border .33s linear;
+  }
+  #containerfooter ul{
+    margin: 0 0;
+    padding: 0;
+  }
+  #containerfooter ul li{
+    margin: 0 15px;
+    padding: 0;
+    line-height: 2.2rem;
+    font-size: 18px;
+  }
+  #containerfooter hr{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #endfooter span{
+    font-size: 16px;
+    font-family: "Roboto";
+    color: gray;
+    margin: 5px 10px;
+   }
+  }

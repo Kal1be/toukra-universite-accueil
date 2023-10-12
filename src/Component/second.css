@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gabarito:wght@600;700&family=Lato:wght@300;700&family=Merriweather:wght@900&family=Oswald:wght@400;500;600&family=Poppins:wght@500&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&family=Roboto:wght@400;500;700;900&family=Rubik:wght@500&display=swap'); 
+
+
+/* affichage du contenu h1 et tpous ses element images et de tous ses elements */
+.contain h1{
+    font-family: "Oswald";
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.contain p{
+    padding: 10px 0;
+    line-height: 1.7rem;
+    font-size: 22px;
+    font-family: "Roboto";
+    color: gray;
+}
+#conten{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: whitesmoke !important;
+}
+#card{
+    width: 100%;
+   border: none !important;
+}
+#card img{
+    height: 400px;
+    transition: .4s linear;
+}
+#card img:hover{
+    height: 402px;
+}
+/* la fin de cette partie */
+
+
+/* l'affichage de tout le contenu dans le hover quand le mouseover enter */
+  #card:hover .overlay{
+    transition: .4s linear;
+  }
+  #card:hover .overlay {
+    width: 100%;
+    right: 0;
+    visibility: visible;
+    opacity: 1;
+  }
+
+.overlay{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-between;
+    background-color: rgba(2, 8, 59, 0.603);
+    width:0;
+    height: 400px;
+    right:100%;
+   padding: 15px 0;
+   transition: .1s linear;
+   visibility: hidden;
+   opacity: 0;
+}
+.overlay:hover{
+    height: 402px;
+}
+.icon{
+    margin: 19px 10px;
+    font-size: 25px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    color: rgb(36, 112, 253);
+    transition:  .53s linear;
+    width: 30px;
+    height: 30px;
+}
+.icon:hover{
+    background-color: rgb(36, 112, 253);
+    padding: 10px;
+    border-radius: 50%;
+    color:white ;
+}
+/* the end of this parti */
+#depend{
+    padding: 10px 30px;
+}
+
+/* the start part of the contain of contenuimg */
+.colorblue{
+    color: rgb(45, 110, 252);
+}
+.modifiant{
+    display: flex;
+    justify-content: space-between;
+}
+.modifiant span{
+    font-size: 17px;
+    font-family: "Roboto";
+    color: rgb(163, 161, 161);
+}
+#h1{
+    font-family: "Oswald";
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 30px;
+}
+#containelement{
+    margin: 20px 0;
+}
+
+#p{
+    font-family: "Roboto";
+    font-size: 22px;
+    color: gray;
+}
+#contenuimg{
+    padding: 20px 10px;
+    margin: 30px 0;
+}
+#contenuimg .direction{
+ width: 100%;
+ height: 100%;
+}
+
+ .direction img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 90% 0 70% 80%;
+}
+#h1a{
+    font-family: "Oswald";
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 2px;
+}
+#mybtn{
+    margin: auto;
+    display: flex;
+}
+/* the end of the first element  */
+
+/* the start of the student say about us */
+
+
+#containContainer{
+    background-color:#1876f2;
+    padding: 40px;
+}
+#containContainer h1{
+    font-family: "Gabarito";
+    font-weight: bold;
+    font-size: 54px;
+    color: white;
+}
+#elemento div{
+    background-color:#1876f2;
+    color: white;
+    padding: 20px;
+}
+#elemento div p{
+    font-family: "Roboto";
+    font-size: 22px;
+    text-align: justify;
+}
+.btnall{
+    display: flex;
+    justify-content: space-between;
+}
+.btnall button{
+    position: absolute;
+    top: 35%;
+ margin-left: 50%;
+ margin-right: 25%;
+}
+
+.btnall span{
+    position: absolute;
+    font-size: 25px ;
+    width: 50px;
+    background-color:white;
+    border-radius:50%;
+    padding: 3px 2px;
+    align-items:center;
+    align-self: center;
+    color: blue;
+    right: 0;
+}
+
+.btnall span{
+    padding: 3px 2px;
+    font-size: 25px;
+    width: 50px ;
+    background-color: white;
+    border-radius:50%;
+    color: blue;
+    margin-left: 20px;
+}
+.btnall span:hover{
+    padding: 3px 2px;
+    font-size: 25px;
+    width: 50px ;
+    background-color: blue;
+    border-radius:50%;
+    color: white;
+    margin-left: 20px;
+    border: 1px solid white;
+}
+
+
+
+.nour {
+    display: flex;
+}
+.nour p{
+    margin-top: 9px;
+    margin-left: 3px;
+}
+.nour p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+}
+.nour img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: contain;
+    background-color: rgb(245, 244, 244);
+}
+
+@media(max-width:800px){
+
+    /* the start of affichage of the small screen */
+
+    .contain h1{
+        font-family: "Oswald";
+        overflow: hidden;
+        font-weight: bold;
+        font-size: 26px;
+        margin: 8px 0;
+        color: rgb(58, 58, 58);
+    }
+    #conten{
+        padding: 10px 14px;
+        border-radius: 10px;
+        background-color: whitesmoke !important;
+    }
+    .contain p{
+        padding: 4px 0;
+        line-height: 1.7rem;
+        font-size: 18px;
+        font-family: "Roboto";
+        color: gray;
+    }
+    #card{
+        width: 100%;
+        margin: 10px 0;
+        
+    }
+   
+    #card img{
+        height: 280px !important;
+    }
+    /* the end of this parti */
+
+    /* affichage du contenu dans le small phone */
+    #contenuimg{
+        padding: 10px 0;
+        margin: 20px 0;
+    }
+
+    #card:hover .overlay {
+        width: 100%;
+        left: 0;
+      }
+
+    .overlay{
+        display:flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        justify-content: space-between;
+        background-color: rgba(1, 9, 49, 0.753);
+        width: 0;
+       height:280px;
+       padding: 20px 0;
+       transition: .3s linear;
+    }
+    .overlay:hover{
+        height: 282px;
+    }
+    .icon{
+        margin: 10px 10px;
+        font-size: 18px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 50%;
+        color: rgb(36, 112, 253);
+        transition:  .53s linear;
+        width: 20px;
+        height: 20px;
+    }
+    .icon:hover{
+        background-color: rgb(36, 112, 253);
+        padding: 10px;
+        border-radius: 50%;
+        color:white ;
+    }
+    /* the end of this parti */
+    #depend{
+        padding: 5px 5px;
+    }
+    /* the contenuimg with their container on the small phone css */
+    
+
+   #h1a{
+       font-family: "Oswald";
+       overflow: hidden;
+       font-weight: bold;
+       font-size: 24px;
+       margin-top: 2px;
+   }
+   #h1{
+    font-family: "Oswald";
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 30px;
+}
+#p{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: gray;
+}
+
+/* the star of the student say about us */
+#containContainer h1{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+    margin:0 12px;
+}
+
+
+
+#containContainer{
+    background-color:#1876f2;
+    padding: 20px 3px;
+}
+#elemento div{
+    background-color:#1876f2;
+    color: white;
+    padding: 12px;
+    border: none !important;
+}
+#elemento div p{
+    font-family: "Roboto";
+    font-size: 18px;
+    text-align:left;
+}
+.btnall{
+    display: flex;
+    justify-content: space-between;
+}
+.btnall button{
+    position: absolute;
+    top: 75%;
+ margin-left: 60%;
+ margin-right: 10%;
+}
+
+.btnall span{
+    position: absolute;
+    font-size: 17px ;
+    width: 40px;
+    background-color:white;
+    border-radius:50%;
+    padding: 3px 2px;
+    align-items:center;
+    align-self: center;
+    color: blue;
+    right: 0;
+}
+
+.btnall span{
+    padding: 3px 2px;
+    font-size: 17px;
+    width: 40px ;
+    background-color: white;
+    border-radius:50%;
+    color: blue;
+    margin-left: 20px;
+    transition: .33s linear;
+}
+.btnall span:hover{
+    padding: 3px 2px;
+    font-size: 17px;
+    width: 40px ;
+    background-color: blue;
+    border-radius:50%;
+    color: white;
+    margin-left: 20px;
+    border: 1px solid white;
+}
+
+
+
+.nour {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nour p{
+    margin-top: 9px;
+    margin-left: 3px;
+}
+.nour p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+}
+.nour img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: contain;
+    background-color: rgb(245, 244, 244);
+}
+
+}
