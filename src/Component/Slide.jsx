@@ -1,6 +1,15 @@
 import "./slide.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar,faCircleChevronRight,faCircleChevronLeft,faClock,faBook, faB} from '@fortawesome/free-solid-svg-icons'
+import img1 from "../img/img4/etudiant1.jpeg"
+import img2 from "../img/img4/etudiant2.jpeg"
+import img3 from "../img/img4/etudiant3.jpeg"
+import img4 from "../img/img4/etudiant4.jpeg"
+import img5 from "../img/img4/etudiant5.jpeg"
+import img6 from "../img/img4/etudiant6.jpeg"
+import img7 from "../img/img4/etudiant7.jpeg"
+import img8 from "../img/img4/etudiant8.jpg"
+import img9 from "../img/img4/etudiant9.png"
 
 function Slide() {
   return (
@@ -13,7 +22,7 @@ function Slide() {
      <div className="cards-wrapper">
       <div className="col-lg-4 col-12">
       <div className="card" >
-  <img src="../img4/etudiant1.jpeg" className="card-img-top" alt="..." />
+  <img src={img1} className="card-img-top" alt="..." />
   <div className="card-body">
     <div className="modifie"><h5 className="card-title">Droits juridiques</h5>
     <div>
@@ -35,7 +44,7 @@ function Slide() {
         </div>
       <div className="col-lg-4 col-12">
       <div className="card" >
-  <img src="../img4/etudiant2.jpeg" className="card-img-top" alt="..." />
+  <img src={img2} className="card-img-top" alt="..." />
   <div className="card-body">
   <div className="modifie"><h5 className="card-title">Sociologie et Philosophie</h5>
     <div>
@@ -58,7 +67,7 @@ function Slide() {
       <div className="col-lg-4 col-12">
 
       <div className="card" >
-  <img src="../img4/etudiant3.jpeg" className="card-img-top" alt="..." />
+  <img src={img3} className="card-img-top" alt="..." />
   <div className="card-body">
   <div className="modifie"><h5 className="card-title">Communication</h5>
     <div>
@@ -85,7 +94,7 @@ function Slide() {
      <div className="col-lg-4 col-12">
      
       <div className="card" >
-  <img src="../img4/etudiant4.jpeg" className="card-img-top" alt="..." />
+  <img src={img4} className="card-img-top" alt="..." />
   <div className="card-body">
   <div className="modifie"><h5 className="card-title">Geographie</h5>
     <div>
@@ -109,7 +118,7 @@ function Slide() {
      
       <div className="col-lg-4 col-12">
       <div className="card shadow" >
-  <img src="../img4/etudiant5.jpeg" className="card-img-top" alt="..." />
+  <img src={img5} className="card-img-top" alt="..." />
   <div className="card-body">
   <div className="modifie"><h5 className="card-title">Histoire</h5>
     <div>
@@ -133,7 +142,7 @@ function Slide() {
      
       <div className="col-lg-4 col-12">
       <div className="card shadow" >
-  <img src="../img4/etudiant6.jpeg" className="card-img-top" alt="..." />
+  <img src={img6} className="card-img-top" alt="..." />
   <div className="card-body">
   <div className="modifie"><h5 className="card-title">Englais</h5>
     <div>
@@ -163,7 +172,7 @@ function Slide() {
 
      <div className="col-lg-4 col-12">
       <div className="card shadow" >
-  <img src="../img4/etudiant7.jpeg" className="card-img-top" alt="..." />
+  <img src={img7} className="card-img-top" alt="..." />
   <div className="card-body">
   <div className="modifie"><h5 className="card-title">Arabe</h5>
     <div>
@@ -187,7 +196,7 @@ function Slide() {
       
       <div className="col-lg-4 col-12">
       <div className="card shadow" >
-  <img src="../img4/etudiant8.jpg" className="card-img-top" alt="..." />
+  <img src={img8} className="card-img-top" alt="..." />
   <div className="card-body">
   <div className="modifie"><h5 className="card-title">Anthropologie</h5>
     <div>
@@ -211,7 +220,7 @@ function Slide() {
       
       <div className="col-lg-4 col-12">
       <div className="card" >
-  <img src="../img4/etudiant9.png" className="card-img-top" alt="..." />
+  <img src={img9} className="card-img-top" alt="..." />
   <div className="card-body">
   <div className="modifie"><h5 className="card-title">Education</h5>
     <div>

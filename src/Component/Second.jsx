@@ -2,7 +2,17 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
  import { faFacebook,faWhatsapp,faLinkedin,faInstagram } from "@fortawesome/free-brands-svg-icons";
  import {faClock,faLocation,faArrowLeft,faArrowRight} from '@fortawesome/free-solid-svg-icons';
-
+import img1 from "../img/img5/class2.jpg"
+import img2 from "../img/img5/class4.jpeg"
+import img3 from "../img/img5/class3.jpg"
+import img4 from "../img/img5/temoin3.webp"
+import img5 from "../img/img5/temoin4.png"
+import img6 from "../img/img5/temoin2.jpeg"
+import img7 from "../img/img5/temoin5.png"
+import img8 from '../img/img3/professeur1.jpeg'
+import img9 from '../img/img3/professeur3.jpeg'
+import img10 from '../img/img3/professeur6.jpg'
+import img11 from '../img/img3/professeur7.jpeg'
 import Slide from "./Slide"
 import "./second.css"
 
@@ -18,7 +28,7 @@ const SecondOne=()=>{
           boy smashing. The little rotter off his nut codswallop.!</p>
         <div className="row shadow" id="contenuimg">
           <div className="col-lg-5 col-12">
-           <div className="direction"> <img src="../img5/class2.jpg" alt="" /></div>
+           <div className="direction"> <img src={img1} alt="" /></div>
           </div>
           <div className="col-lg-7 col-12">
             <p className="text-warning fs-4 my-3">27 Avril,2024</p>
@@ -33,7 +43,7 @@ const SecondOne=()=>{
         </div>
         <div className="row shadow" id="contenuimg">
           <div className="col-lg-5 col-12">
-           <div className="direction"> <img src="../img5/class4.jpeg" alt="" /></div>
+           <div className="direction"> <img src={img2} alt="" /></div>
           </div>
           <div className="col-lg-7 col-12">
             <p className="text-warning fs-4 my-3">27 Janvier,2024</p>
@@ -48,7 +58,7 @@ const SecondOne=()=>{
         </div>
         <div className="row shadow" id="contenuimg">
           <div className="col-lg-5 col-12">
-           <div className="direction"> <img src="../img5/class3.jpg" alt="" /></div>
+           <div className="direction"> <img src={img3} alt="" /></div>
           </div>
           <div className="col-lg-7 col-12">
             <p className="text-warning fs-4 my-3">27 Decembre,2024</p>
@@ -84,7 +94,7 @@ export function First(){
      <div>
 <p>Salut,je suis Adele Orimadji et je suis etudiante a l'universite de Toukra,j'etudie la communication et mon reve c'est de devenir journaliste de Television.Rejoignez moi et etudions ensemble</p>
 <div className="nour">
-  <img src="../img5/temoin3.webp" alt="" />
+  <img src={img4} alt="" />
   <p>Adele Orimadji <span>Etudiante</span></p>
 </div>
      </div>
@@ -94,7 +104,7 @@ export function First(){
      <div>
      <p>Salut,moi ce Etienne Dingamnodji et je suis etudiant a l'universite de Toukra,j'etudie la Philosophie et mon reve c'est de devenir grand philosophe,Rejoignez nous et etudions ensemble.</p>
 <div  className="nour">
-  <img src="../img5/temoin4.png" alt="" />
+  <img src={img5} alt="" />
   <p>Dingamnodji Etienne<span>Etudiant</span></p>
 </div>
      </div>
@@ -104,7 +114,7 @@ export function First(){
      <div>
      <p>Salut,moi ce Koubeube Angele et je suis etudiante a l'universite de Toukra,j'etudie la science sociale et mon reve est de permettre la cohabitation entre les tchadiens,Rejoignez nous et etudions ensemble.</p>
 <div  className="nour">
-  <img src="../img5/temoin2.jpeg" alt="" />
+  <img src={img6} alt="" />
   <p>Koubeube Angele<span>Etudiante</span></p>
 </div>
      </div>
@@ -118,7 +128,7 @@ export function First(){
     <div>
      <p>Salut je suis Biampambe Marcelin,je suis etudiant a l'universite de Toukra,j'etudie l'Anthropologie et mon reve ce d'etre Anthropologue et Historien,rejoingnez nous et etudions ensemble.</p>
 <div  className="nour">
-  <img src="../img5/temoin5.png" alt="" />
+  <img src={img7} alt="" />
   <p>Bianpambe Marcelin<span>Etudiant</span></p>
 </div>
      </div>
@@ -167,7 +177,7 @@ function Second() {
         <div className="row row-cols-lg-4 row-cols-1" id="depend">
           <div className="col-md-4 col-12">
            <div className="card shadow" id="card">
-            <img src="../img3/professeur1.jpeg" alt=""  className="card-img-top"/>
+            <img src={img8} alt=""  className="card-img-top"/>
           <div className="overlay">
           <FontAwesomeIcon icon={faFacebook} className="icon"/>
           <FontAwesomeIcon icon={faWhatsapp}  className="icon"/>
@@ -182,7 +192,7 @@ function Second() {
           </div>
           <div className="col-md-3 col-12">
           <div className="card shadow" id="card">
-          <img src="../img3/professeur3.jpeg" alt="" className="card-img-top" />
+          <img src={img9} alt="" className="card-img-top" />
           <div className="overlay">
           <FontAwesomeIcon icon={faFacebook} className="icon"/>
           <FontAwesomeIcon icon={faWhatsapp}  className="icon"/>
@@ -197,7 +207,7 @@ function Second() {
           </div>
           <div className="col-md-3 col-12">
           <div className="card shadow" id="card">
-          <img src="../img3/professeur6.jpg" alt="" className="card-img-top" />
+          <img src={img10} alt="" className="card-img-top" />
           <div className="overlay">
           <FontAwesomeIcon icon={faFacebook} className="icon"/>
           <FontAwesomeIcon icon={faWhatsapp}  className="icon"/>
@@ -212,7 +222,7 @@ function Second() {
           </div>
           <div className="col-md-3 col-12">
           <div className="card shadow" id="card">
-          <img src="../img3/professeur7.jpeg" alt="" className="card-img-top" />
+          <img src={img11} alt="" className="card-img-top" />
           <div className="overlay">
           <FontAwesomeIcon icon={faFacebook} className="icon"/>
           <FontAwesomeIcon icon={faWhatsapp}  className="icon"/>
@@ -229,6 +239,7 @@ function Second() {
       </div>
 
 <SecondOne/>
+<First/>
 </div>
 
 

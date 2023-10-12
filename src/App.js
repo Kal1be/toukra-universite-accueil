@@ -1,7 +1,7 @@
 import './App.css';
 import Footer from './footer/Footer';
 import Navbar from './header/Navbar';
-import Accueil from './pages/Accueil';
+import Accueil from '../src/pages/Accueil';
 import {Routes,Route} from 'react-router-dom'
 
 
@@ -9,7 +9,9 @@ function App() {
   return (
    <>
    <Navbar/>
- <Accueil/>
+<Routes>
+  <Route path='/' element={<Accueil/>} />
+</Routes>
   <Footer/>
    </>
   )

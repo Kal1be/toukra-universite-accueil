@@ -1,6 +1,6 @@
 import "./accueil.css"
 import Carousel from '../Component/Carousel'
-import Second, { First } from '../Component/Second'
+import Second from '../Component/Second'
 
 
 function Accueil() {
@@ -8,7 +8,6 @@ function Accueil() {
     <div className='element'>
     <Carousel/>
     <Second/>
-    <First/>
     </div>
   )
 }

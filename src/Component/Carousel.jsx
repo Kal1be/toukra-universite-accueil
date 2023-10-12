@@ -1,6 +1,15 @@
 import './carousel.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faArrowLeft,faArrowRight,faPhone} from '@fortawesome/free-solid-svg-icons';
+import img1 from "../Component/img/img1/etudiant1.jpg"
+import img2 from "../Component/img/img1/etudiant3.jpg"
+import img3 from "../Component/img/img1/etudiant4.jpg"
+import img4 from "../img/img2/book1.jpeg"
+import img5 from "../img/img2/userlaptop.jpeg"
+import img6 from "../img/img2/cap.png"
+import img7 from "../img/img2/course1school.png"
+import img8 from "../img/img3/etudian.jpg"
+import img9 from "../img/img3/icon.png"
 
 
 function Carousel() {
@@ -17,7 +26,7 @@ function Carousel() {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active" id="carousel-item">
-          <img src="../img1/etudiant1.jpg" className="d-block w-100" alt="..." />
+          <img src={img1} className="d-block w-100" alt="..." />
           <div className="carousel-caption  d-md-block" id="carousel-caption">
             <p>Bienvenue devant notre E-learning</p>
             <h3>Mahamat Saleh Haggar vous souhaite la bienvenue</h3>
@@ -25,7 +34,7 @@ function Carousel() {
           </div>
         </div>
         <div className="carousel-item" id="carousel-item">
-          <img src="../img1/etudiant3.jpg" className="d-block w-100" alt="..." />
+          <img src={img2} className="d-block w-100" alt="..." />
           <div className="carousel-caption  d-md-block" id="carousel-caption">
             <p>Bienvenue devant notre Organisation</p>
             <h3>L'Education est la cles du success de la vie</h3>
@@ -33,7 +42,7 @@ function Carousel() {
           </div>
         </div>
         <div className="carousel-item" id="carousel-item">
-          <img src="../img1/etudiant4.jpg" className="d-block w-100" alt="..." />
+          <img src={img3} className="d-block w-100" alt="..." />
           <div className="carousel-caption  d-md-block" id="carousel-caption">
             <p>Bienvenue a l'universite de Toukra</p>
             <h3>L'Education est la cles du success d'une nation</h3>
@@ -59,7 +68,7 @@ function Carousel() {
     <div className="col-lg-12 col-12" id='imge'>
     <div className="row">
       <div className="col-lg-4 col-12">
-        <img src="../img2/book1.jpeg" alt="" />
+        <img src={img4} alt="" />
         <h4>Centre d'enseignement à <br/>
           distance</h4>
         <p>Si vous n'êtes pas disponible
@@ -69,7 +78,7 @@ function Carousel() {
       apprentissage à distance.</p>
         </div>
         <div className="col-lg-4 col-12">
-        <img src="../img2/userlaptop.jpeg" alt="" />
+        <img src={img5} alt="" />
         <h4>Programme de premier <br/>
               cycle</h4>
               <p>L'université de Toukra 
@@ -80,7 +89,7 @@ function Carousel() {
     </div>
       <div className="row">
       <div className="col-lg-4 col-12">
-      <img src="../img2/cap.png" alt="" />
+      <img src={img6} alt="" />
         
         <h4>LVT/DIplome</h4>
         <p>Maintenant pour ceux qui 
@@ -89,7 +98,7 @@ function Carousel() {
     pour un Diploma </p>
         </div>
       <div className="col-lg-4 col-12">
-      <img src="../img2/course1school.png" alt="" />
+      <img src={img7} alt="" />
         <h4>La vie universitaire</h4>
         <p>L'universite offre plus de 10000 logements pour ses etudiants et offre une meilleur centre de sante pour le bien de ces etudiants</p>
         </div>
@@ -141,8 +150,8 @@ function Carousel() {
      <div className="row row-cols-2">
         <div className="col-md-7 col-12" id='first'>
         <p>Former plus <span>3M+</span></p>
-         <div className='second'><img src="../img3/icon.png" alt="" /></div>
-          <img src="../img3/etudian.jpg" alt="" id='myimg' />
+         <div className='second'><img src={img9} alt="" /></div>
+          <img src={img8} alt="" id='myimg' />
         </div>
         <div className="col-md-5 col-12" id='tree'>
           <h3>Nous sommes une institution d'apprentissage et d'expertisme</h3>
