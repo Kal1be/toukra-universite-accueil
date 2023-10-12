@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/toukra-universite-accueil/static/css/main.ba94ce75.css",
+    "main.js": "/toukra-universite-accueil/static/js/main.91feb6a1.js",
+    "index.html": "/toukra-universite-accueil/index.html",
+    "main.ba94ce75.css.map": "/toukra-universite-accueil/static/css/main.ba94ce75.css.map",
+    "main.91feb6a1.js.map": "/toukra-universite-accueil/static/js/main.91feb6a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba94ce75.css",
+    "static/js/main.91feb6a1.js"
+  ]
+}
