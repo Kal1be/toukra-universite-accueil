@@ -1,12 +1,12 @@
 import "./accueil.css"
-import Carousel from '../Component/Carousel'
-import Second from '../Component/Second'
 
+import Second from "../src/Component/Second"
+import Carousel from "../src/Component/Carousel"
 
 function Accueil() {
   return (
     <div className='element'>
-    <Carousel/>
+   <Carousel/>
     <Second/>
     </div>
   )

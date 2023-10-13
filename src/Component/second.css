@@ -240,7 +240,7 @@
         font-family: "Oswald";
         overflow: hidden;
         font-weight: bold;
-        font-size: 26px;
+        font-size: 23px;
         margin: 8px 0;
         color: rgb(58, 58, 58);
     }
@@ -252,7 +252,7 @@
     .contain p{
         padding: 4px 0;
         line-height: 1.7rem;
-        font-size: 18px;
+        font-size: 16px;
         font-family: "Roboto";
         color: gray;
     }
@@ -333,7 +333,7 @@
 }
 #p{
     font-family: "Roboto";
-    font-size: 18px;
+    font-size: 16px;
     color: gray;
 }
 
@@ -361,7 +361,7 @@
 }
 #elemento div p{
     font-family: "Roboto";
-    font-size: 18px;
+    font-size: 16px;
     text-align:left;
 }
 .btnall{

@@ -1,10 +1,11 @@
 import React from 'react'
 import './navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faUserGraduate} from '@fortawesome/free-solid-svg-icons';
+import {Link } from "react-router-dom"
 import Header from './Header';
 import img1 from "../header/img/img1/drapeau1.png"
 import img2 from "../header/img/img1/im6.png"
+import Accueil from '../Accueil';
 
 function Navbar() {
   return (
@@ -26,61 +27,61 @@ function Navbar() {
   <div className="collapse navbar-collapse justify-content-end d-lg-none" id="navbarSupportedContent">
     <ul className="navbar-nav">
       <li className="nav-item">
-        <a className="nav-link active" aria-current="page" href="#">Accueil</a>
+        <Link className="nav-link active" aria-current="page" to={<Accueil/>}>Accueil</Link>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="#">
+          <Link class="nav-link" to={<Accueil/>}>
             Recherches
-          </a>
+          </Link>
           <div className='dropdownmenu shadow'>
            <div className='update'>
            <ul>
-              <li><a href="">Admission et Nouvelles</a></li>
-              <li><a href=""> Politique de confidentialite</a></li>
-              <li><a href="">Librairies de l'universitè</a></li>
-              <li><a href="">Ecoles Normales superieures</a></li>
-              <li><a href="">La formation a l'universite</a></li>
-              <li><a href="">Les services disponibles</a></li>
-              <li><a href="">Ecoles Normales superieures</a></li>
-              <li><a href="">Ecoles Normales superieures</a></li>
+              <li><Link to={<Accueil/>}>Admission et Nouvelles</Link></li>
+              <li><Link to={<Accueil/>}> Politique de confidentialite</Link></li>
+              <li><Link to={<Accueil/>}>Librairies de l'universitè</Link></li>
+              <li><Link to={<Accueil/>}>Ecoles Normales superieures</Link></li>
+              <li><Link to={<Accueil/>}>La formation a l'universite</Link></li>
+              <li><Link to={<Accueil/>}>Les services disponibles</Link></li>
+              <li><Link to={<Accueil/>}>Ecoles Normales superieures</Link></li>
+              <li><Link to={<Accueil/>}>Ecoles Normales superieures</Link></li>
             </ul>
            </div>
           </div>
         </li>
       <li className="nav-item ">
-        <a className="nav-link" href="#" >
+        <Link className="nav-link" to={<Accueil/>} >
           Facultes
-        </a>
+        </Link>
         <div className='dropdownmenu shadow'>
            <div className="row" id='rowcol'>
             <div className="col">
               <h4>Departement</h4>
               <ul>
-                <li><a href="">Departement de Francais</a></li>
-                <li><a href="">Departement de Philosophie</a></li>
-                <li><a href="">Departement de l'Anthopologie</a></li>
-                <li><a href="">Departement de Communication</a></li>
-                <li><a href="">Departement de Geographie</a></li>
-                <li><a href="">Departement d'Histoire</a></li>
-                <li><a href="">Departement de Science Humaines</a></li>
+                <li><Link to={<Accueil/>}>Departement de Francais</Link></li>
+                <li><Link to={<Accueil/>}>Departement de Philosophie</Link></li>
+                <li><Link to={<Accueil/>}>Departement de l'Anthopologie</Link></li>
+                <li><Link to={<Accueil/>}>Departement de Communication</Link></li>
+                <li><Link to={<Accueil/>}>Departement de Geographie</Link></li>
+                <li><Link to={<Accueil/>}>Departement d'Histoire</Link></li>
+                <li><Link to={<Accueil/>}>Departement de Science Humaines</Link></li>
               </ul>
             </div>
             <div className="col">
               <h4>Faculte</h4>
               <ul>
-      <li><a href="">Facultè des Langues et Lettres Arts et Communication</a></li>
-      <li><a href="">Facultès des Sciences et de l'Education</a></li>
-      <li><a href="">Facultes des sciences Humaines et Sociales</a></li>
-      <li><a href="">Facultés des Sciences Juridiques et Politique</a></li>
+      <li><Link to={<Accueil/>}>Facultè des Langues et Lettres Arts et Communication</Link></li>
+      <li><Link to={<Accueil/>}>Facultès des Sciences et de l'Education</Link></li>
+      <li><Link to={<Accueil/>}>Facultes des sciences Humaines et Sociales</Link></li>
+      <li><Link to={<Accueil/>}>Facultés des Sciences Juridiques et Politique</Link></li>
     </ul>
             </div>
             <div className="col">
             <h4>Direction</h4>
             <ul>
-      <li><a href="">Facultè des Langues et Lettres Arts et Communication</a></li>
-      <li><a href="">Facultès des Sciences et de l'Education</a></li>
-      <li><a href="">Facultes des sciences Humaines et Sociales</a></li>
-      <li><a href="">Facultés des Sciences Juridiques et Politique</a></li>
+      <li><Link to={<Accueil/>}>Facultè des Langues et Lettres Arts et Communication</Link></li>
+      <li><Link to={<Accueil/>}>Facultès des Sciences et de l'Education</Link></li>
+      <li><Link to={<Accueil/>}>Facultes des sciences Humaines et Sociales</Link></li>
+      <li><Link to={<Accueil/>}>Facultés des Sciences Juridiques et Politique</Link></li>
     </ul>
             </div>
            </div>
@@ -88,38 +89,38 @@ function Navbar() {
 
       </li>
       <li className="nav-item">
-          <a className="nav-link active" href="#">Instituts&amp;Centres  <FontAwesomeIcon icon="{faChevronDown}/" /></a>
+          <Link className="nav-link active" to={<Accueil/>}>Instituts&amp;Centres  <FontAwesomeIcon icon="{faChevronDown}/" /></Link>
          
         <div className='dropdownmenu shadow'>
            <div className="row" id='rowcol'>
             <div className="col">
               <h4>Departement</h4>
               <ul>
-                <li><a href="">Departement de Francais</a></li>
-                <li><a href="">Departement de Philosophie</a></li>
-                <li><a href="">Departement de l'Anthopologie</a></li>
-                <li><a href="">Departement de Communication</a></li>
-                <li><a href="">Departement de Geographie</a></li>
-                <li><a href="">Departement d'Histoire</a></li>
-                <li><a href="">Departement de Science Humaines</a></li>
+                <li><Link to={<Accueil/>}>Departement de Francais</Link></li>
+                <li><Link to={<Accueil/>}>Departement de Philosophie</Link></li>
+                <li><Link to={<Accueil/>}>Departement de l'Anthopologie</Link></li>
+                <li><Link to={<Accueil/>}>Departement de Communication</Link></li>
+                <li><Link to={<Accueil/>}>Departement de Geographie</Link></li>
+                <li><Link to={<Accueil/>}>Departement d'Histoire</Link></li>
+                <li><Link to={<Accueil/>}>Departement de Science Humaines</Link></li>
               </ul>
             </div>
             <div className="col">
               <h4>Faculte</h4>
               <ul>
-      <li><a href="">Facultè des Langues et Lettres Arts et Communication</a></li>
-      <li><a href="">Facultès des Sciences et de l'Education</a></li>
-      <li><a href="">Facultes des sciences Humaines et Sociales</a></li>
-      <li><a href="">Facultés des Sciences Juridiques et Politique</a></li>
+      <li><Link to={<Accueil/>}>Facultè des Langues et Lettres Arts et Communication</Link></li>
+      <li><Link to={<Accueil/>}>Facultès des Sciences et de l'Education</Link></li>
+      <li><Link to={<Accueil/>}>Facultes des sciences Humaines et Sociales</Link></li>
+      <li><Link to={<Accueil/>}>Facultés des Sciences Juridiques et Politique</Link></li>
     </ul>
             </div>
             <div className="col">
             <h4>Direction</h4>
             <ul>
-      <li><a href="">Facultè des Langues et Lettres Arts et Communication</a></li>
-      <li><a href="">Facultès des Sciences et de l'Education</a></li>
-      <li><a href="">Facultes des sciences Humaines et Sociales</a></li>
-      <li><a href="">Facultés des Sciences Juridiques et Politique</a></li>
+      <li><Link to={<Accueil/>}>Facultè des Langues et Lettres Arts et Communication</Link></li>
+      <li><Link to={<Accueil/>}>Facultès des Sciences et de l'Education</Link></li>
+      <li><Link to={<Accueil/>}>Facultes des sciences Humaines et Sociales</Link></li>
+      <li><Link to={<Accueil/>}>Facultés des Sciences Juridiques et Politique</Link></li>
     </ul>
             </div>
            </div>
@@ -128,24 +129,24 @@ function Navbar() {
         </li> 
      
         <li className="nav-item">
-          <a className="nav-link active" href="#">Nouvelles  <FontAwesomeIcon icon="{faChevronDown}/" /></a>
+          <Link className="nav-link active" to={<Accueil/>}>Nouvelles  <FontAwesomeIcon icon="{faChevronDown}/" /></Link>
           <div className='dropdownmenu shadow'>
            <div className='update'>
            <ul>
-              <li><a href="">Admission et Nouvelles</a></li>
-              <li><a href=""> Politique de confidentialite</a></li>
-              <li><a href="">Librairies de l'universitè</a></li>
-              <li><a href="">Ecoles Normales superieures</a></li>
-              <li><a href="">La formation a l'universite</a></li>
-              <li><a href="">Les services disponibles</a></li>
-              <li><a href="">Ecoles Normales superieures</a></li>
-              <li><a href="">Ecoles Normales superieures</a></li>
+              <li><Link to={<Accueil/>}>Admission et Nouvelles</Link></li>
+              <li><Link to={<Accueil/>}> Politique de confidentialite</Link></li>
+              <li><Link to={<Accueil/>}>Librairies de l'universitè</Link></li>
+              <li><Link to={<Accueil/>}>Ecoles Normales superieures</Link></li>
+              <li><Link to={<Accueil/>}>La formation a l'universite</Link></li>
+              <li><Link to={<Accueil/>}>Les services disponibles</Link></li>
+              <li><Link to={<Accueil/>}>Ecoles Normales superieures</Link></li>
+              <li><Link to={<Accueil/>}>Ecoles Normales superieures</Link></li>
             </ul>
            </div>
           </div>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="#">Biblioteques  <FontAwesomeIcon icon="{faChevronDown}/" /></a>
+          <Link className="nav-link active" to={<Accueil/>}>Biblioteques  <FontAwesomeIcon icon="{faChevronDown}/" /></Link>
         </li>
     </ul>
   </div>
@@ -159,24 +160,24 @@ function Navbar() {
     <div className="offcanvas-body scroll-auto">
       <ul className="  navbar-nav justify-content-end flex-grow-1 pe-3">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Accueil</a>
+          <Link className="nav-link active" aria-current="page" to={<Accueil/>}>Accueil</Link>
         </li>
         <li className="nav-item ">
-          <a className="nav-link active" href="#">A Propos <span>+</span></a>
+          <Link className="nav-link active" to={<Accueil/>}>A Propos <span>+</span></Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link active " href="#">
-            Facultes <span>+</span></a>
+          <Link className="nav-link active " to={<Accueil/>}>
+            Facultes <span>+</span></Link>
          
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="#">Instituts&amp;Centres  <span>+</span></a>
+          <Link className="nav-link active" to={<Accueil/>}>Instituts&amp;Centres  <span>+</span></Link>
         </li> 
         <li className="nav-item">
-          <a className="nav-link active" href="#">Nouvelles  <span>+</span></a>
+          <Link className="nav-link active" to={<Accueil/>}>Nouvelles  <span>+</span></Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="#">Biblioteques <span>+</span></a>
+          <Link className="nav-link active" to={<Accueil/>}>Biblioteques <span>+</span></Link>
         </li>
       </ul>
     </div>
@@ -209,120 +210,120 @@ function Navbar() {
   <div className="collapse navbar-collapse justify-content-end d-lg-none" id="navbarSupportedContent">
     <ul className="navbar-nav">
       <li className="nav-item">
-        <a className="nav-link active" aria-current="page" href="#">Accueil</a>
+        <Link className="nav-link active" aria-current="page" to={<Accueil/>}>Accueil</Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Recherche</a>
+        <Link className="nav-link" to={<Accueil/>}>Recherche</Link>
         <div className='dropdownmenu shadow'>
            <div className='update'>
            <ul>
-              <li><a href="">Admission et Nouvelles</a></li>
-              <li><a href=""> Politique de confidentialite</a></li>
-              <li><a href="">Librairies de l'universitè</a></li>
-              <li><a href="">Ecoles Normales superieures</a></li>
-              <li><a href="">La formation a l'universite</a></li>
-              <li><a href="">Les services disponibles</a></li>
-              <li><a href="">Ecoles Normales superieures</a></li>
-              <li><a href="">Ecoles Normales superieures</a></li>
+              <li><Link to={<Accueil/>}>Admission et Nouvelles</Link></li>
+              <li><Link to={<Accueil/>}> Politique de confidentialite</Link></li>
+              <li><Link to={<Accueil/>}>Librairies de l'universitè</Link></li>
+              <li><Link to={<Accueil/>}>Ecoles Normales superieures</Link></li>
+              <li><Link to={<Accueil/>}>La formation a l'universite</Link></li>
+              <li><Link to={<Accueil/>}>Les services disponibles</Link></li>
+              <li><Link to={<Accueil/>}>Ecoles Normales superieures</Link></li>
+              <li><Link to={<Accueil/>}>Ecoles Normales superieures</Link></li>
             </ul>
            </div>
           </div>
       </li>
       <li className="nav-item ">
-        <a className="nav-link" href="#" >
+        <Link className="nav-link" to={<Accueil/>} >
           Facultes
-        </a>
+        </Link>
         <div className='dropdownmenu shadow'>
            <div className="row" id='rowcol'>
             <div className="col">
               <h4>Departement</h4>
               <ul>
-                <li><a href="">Departement de Francais</a></li>
-                <li><a href="">Departement de Philosophie</a></li>
-                <li><a href="">Departement de l'Anthopologie</a></li>
-                <li><a href="">Departement de Communication</a></li>
-                <li><a href="">Departement de Geographie</a></li>
-                <li><a href="">Departement d'Histoire</a></li>
-                <li><a href="">Departement de Science Humaines</a></li>
+                <li><Link to={<Accueil/>}>Departement de Francais</Link></li>
+                <li><Link to={<Accueil/>}>Departement de Philosophie</Link></li>
+                <li><Link to={<Accueil/>}>Departement de l'Anthopologie</Link></li>
+                <li><Link to={<Accueil/>}>Departement de Communication</Link></li>
+                <li><Link to={<Accueil/>}>Departement de Geographie</Link></li>
+                <li><Link to={<Accueil/>}>Departement d'Histoire</Link></li>
+                <li><Link to={<Accueil/>}>Departement de Science Humaines</Link></li>
               </ul>
             </div>
             <div className="col">
               <h4>Faculte</h4>
               <ul>
-      <li><a href="">Facultè des Langues et Lettres Arts et Communication</a></li>
-      <li><a href="">Facultès des Sciences et de l'Education</a></li>
-      <li><a href="">Facultes des sciences Humaines et Sociales</a></li>
-      <li><a href="">Facultés des Sciences Juridiques et Politique</a></li>
+      <li><Link to={<Accueil/>}>Facultè des Langues et Lettres Arts et Communication</Link></li>
+      <li><Link to={<Accueil/>}>Facultès des Sciences et de l'Education</Link></li>
+      <li><Link to={<Accueil/>}>Facultes des sciences Humaines et Sociales</Link></li>
+      <li><Link to={<Accueil/>}>Facultés des Sciences Juridiques et Politique</Link></li>
     </ul>
             </div>
             <div className="col">
             <h4>Direction</h4>
             <ul>
-      <li><a href="">Facultè des Langues et Lettres Arts et Communication</a></li>
-      <li><a href="">Facultès des Sciences et de l'Education</a></li>
-      <li><a href="">Facultes des sciences Humaines et Sociales</a></li>
-      <li><a href="">Facultés des Sciences Juridiques et Politique</a></li>
+      <li><Link to={<Accueil/>}>Facultè des Langues et Lettres Arts et Communication</Link></li>
+      <li><Link to={<Accueil/>}>Facultès des Sciences et de l'Education</Link></li>
+      <li><Link to={<Accueil/>}>Facultes des sciences Humaines et Sociales</Link></li>
+      <li><Link to={<Accueil/>}>Facultés des Sciences Juridiques et Politique</Link></li>
     </ul>
             </div>
            </div>
           </div>
       </li>
       <li className="nav-item">
-          <a className="nav-link active" href="#">Instituts&amp;Centres </a>
+          <Link className="nav-link active" to={<Accueil/>}>Instituts&amp;Centres </Link>
           <div className='dropdownmenu shadow'>
            <div className="row" id='rowcol'>
             <div className="col">
               <h4>Departement</h4>
               <ul>
-                <li><a href="">Departement de Francais</a></li>
-                <li><a href="">Departement de Philosophie</a></li>
-                <li><a href="">Departement de l'Anthopologie</a></li>
-                <li><a href="">Departement de Communication</a></li>
-                <li><a href="">Departement de Geographie</a></li>
-                <li><a href="">Departement d'Histoire</a></li>
-                <li><a href="">Departement de Science Humaines</a></li>
+                <li><Link to={<Accueil/>}>Departement de Francais</Link></li>
+                <li><Link to={<Accueil/>}>Departement de Philosophie</Link></li>
+                <li><Link to={<Accueil/>}>Departement de l'Anthopologie</Link></li>
+                <li><Link to={<Accueil/>}>Departement de Communication</Link></li>
+                <li><Link to={<Accueil/>}>Departement de Geographie</Link></li>
+                <li><Link to={<Accueil/>}>Departement d'Histoire</Link></li>
+                <li><Link to={<Accueil/>}>Departement de Science Humaines</Link></li>
               </ul>
             </div>
             <div className="col">
               <h4>Faculte</h4>
               <ul>
-      <li><a href="">Facultè des Langues et Lettres Arts et Communication</a></li>
-      <li><a href="">Facultès des Sciences et de l'Education</a></li>
-      <li><a href="">Facultes des sciences Humaines et Sociales</a></li>
-      <li><a href="">Facultés des Sciences Juridiques et Politique</a></li>
+      <li><Link to={<Accueil/>}>Facultè des Langues et Lettres Arts et Communication</Link></li>
+      <li><Link to={<Accueil/>}>Facultès des Sciences et de l'Education</Link></li>
+      <li><Link to={<Accueil/>}>Facultes des sciences Humaines et Sociales</Link></li>
+      <li><Link to={<Accueil/>}>Facultés des Sciences Juridiques et Politique</Link></li>
     </ul>
             </div>
             <div className="col">
             <h4>Direction</h4>
             <ul>
-      <li><a href="">Facultè des Langues et Lettres Arts et Communication</a></li>
-      <li><a href="">Facultès des Sciences et de l'Education</a></li>
-      <li><a href="">Facultes des sciences Humaines et Sociales</a></li>
-      <li><a href="">Facultés des Sciences Juridiques et Politique</a></li>
+      <li><Link to={<Accueil/>}>Facultè des Langues et Lettres Arts et Communication</Link></li>
+      <li><Link to={<Accueil/>}>Facultès des Sciences et de l'Education</Link></li>
+      <li><Link to={<Accueil/>}>Facultes des sciences Humaines et Sociales</Link></li>
+      <li><Link to={<Accueil/>}>Facultés des Sciences Juridiques et Politique</Link></li>
     </ul>
             </div>
            </div>
           </div>
         </li> 
         <li className="nav-item">
-          <a className="nav-link active" href="#">Nouvelles  </a>
+          <Link className="nav-link active" to={<Accueil/>}>Nouvelles  </Link>
            <div className='dropdownmenu shadow'>
            <div className='update'>
            <ul>
-              <li><a href="">Admission et Nouvelles</a></li>
-              <li><a href=""> Politique de confidentialite</a></li>
-              <li><a href="">Librairies de l'universitè</a></li>
-              <li><a href="">Ecoles Normales superieures</a></li>
-              <li><a href="">La formation a l'universite</a></li>
-              <li><a href="">Les services disponibles</a></li>
-              <li><a href="">Ecoles Normales superieures</a></li>
-              <li><a href="">Ecoles Normales superieures</a></li>
+              <li><Link to={<Accueil/>}>Admission et Nouvelles</Link></li>
+              <li><Link to={<Accueil/>}> Politique de confidentialite</Link></li>
+              <li><Link to={<Accueil/>}>Librairies de l'universitè</Link></li>
+              <li><Link to={<Accueil/>}>Ecoles Normales superieures</Link></li>
+              <li><Link to={<Accueil/>}>La formation a l'universite</Link></li>
+              <li><Link to={<Accueil/>}>Les services disponibles</Link></li>
+              <li><Link to={<Accueil/>}>Ecoles Normales superieures</Link></li>
+              <li><Link to={<Accueil/>}>Ecoles Normales superieures</Link></li>
             </ul>
            </div>
           </div>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="#">Biblioteques  <fontawesomeicon icon="{faChevronDown}/" /></a>
+          <Link className="nav-link active" to={<Accueil/>}>Biblioteques  <fontawesomeicon icon="{faChevronDown}/" /></Link>
         </li>
     </ul>
   </div>
@@ -336,24 +337,24 @@ function Navbar() {
     <div className="offcanvas-body scroll-auto">
       <ul className="  navbar-nav justify-content-end flex-grow-1 pe-3">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Accueil</a>
+          <Link className="nav-link active" aria-current="page" to={<Accueil/>}>Accueil</Link>
         </li>
         <li className="nav-item ">
-          <a className="nav-link active" href="#">A Propos  <span>+</span></a>
+          <Link className="nav-link active" to={<Accueil/>}>A Propos  <span>+</span></Link>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link active " >
+          <Link className="nav-link active " >
             Facultes <span>+</span>
-           </a>
+           </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="#">Instituts&amp;Centres  <span>+</span></a>
+          <Link className="nav-link active" to={<Accueil/>}>Instituts&amp;Centres  <span>+</span></Link>
         </li> 
         <li className="nav-item">
-          <a className="nav-link active" href="#">Nouvelles  <span>+</span></a>
+          <Link className="nav-link active" to={<Accueil/>}>Nouvelles  <span>+</span></Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="#">Biblioteques  <span>+</span></a>
+          <Link className="nav-link active" to={<Accueil/>}>Biblioteques  <span>+</span></Link>
         </li>
       </ul>
     </div>

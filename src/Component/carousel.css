@@ -199,7 +199,7 @@ padding: 3px 7px;
     border-radius:50%;
     object-fit:contain;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     align-items: center;
     z-index: 2;
@@ -253,7 +253,7 @@ padding: 3px 7px;
  #tree p{
   font-family: "Roboto";
   line-height: 1.8rem;
-  font-size: 20px;
+  font-size: 17px;
   color: gray;
   margin: 5px 0;
  }
@@ -341,7 +341,7 @@ padding: 3px 7px;
       #carousel-caption h3{
         font-family: "Oswald";
         padding: 0%;
-        font-size: 26px;
+        font-size: 23px;
         overflow: hidden;
         font-weight: bold;
       }
