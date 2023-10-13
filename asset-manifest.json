@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/toukra-universite-accueil/static/css/main.1c31c77c.css",
-    "main.js": "/toukra-universite-accueil/static/js/main.ccc62e92.js",
+    "main.js": "/toukra-universite-accueil/static/js/main.7daa32d2.js",
     "static/media/temoin5.png": "/toukra-universite-accueil/static/media/temoin5.f6be90fde3f5888b3510.png",
     "static/media/etudiant9.png": "/toukra-universite-accueil/static/media/etudiant9.130a89085eb0491b722e.png",
     "static/media/etudiant1.jpg": "/toukra-universite-accueil/static/media/etudiant1.88563a210c2a14617fb7.jpg",
@@ -22,10 +22,10 @@
     "static/media/etudiant6.jpeg": "/toukra-universite-accueil/static/media/etudiant6.43e13e40d687de1cf99e.jpeg",
     "index.html": "/toukra-universite-accueil/index.html",
     "main.1c31c77c.css.map": "/toukra-universite-accueil/static/css/main.1c31c77c.css.map",
-    "main.ccc62e92.js.map": "/toukra-universite-accueil/static/js/main.ccc62e92.js.map"
+    "main.7daa32d2.js.map": "/toukra-universite-accueil/static/js/main.7daa32d2.js.map"
   },
   "entrypoints": [
     "static/css/main.1c31c77c.css",
-    "static/js/main.ccc62e92.js"
+    "static/js/main.7daa32d2.js"
   ]
 }
