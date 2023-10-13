@@ -1,13 +1,31 @@
 {
   "files": {
-    "main.css": "/toukra-universite-accueil/static/css/main.ba94ce75.css",
-    "main.js": "/toukra-universite-accueil/static/js/main.91feb6a1.js",
+    "main.css": "/toukra-universite-accueil/static/css/main.1c31c77c.css",
+    "main.js": "/toukra-universite-accueil/static/js/main.ccc62e92.js",
+    "static/media/temoin5.png": "/toukra-universite-accueil/static/media/temoin5.f6be90fde3f5888b3510.png",
+    "static/media/etudiant9.png": "/toukra-universite-accueil/static/media/etudiant9.130a89085eb0491b722e.png",
+    "static/media/etudiant1.jpg": "/toukra-universite-accueil/static/media/etudiant1.88563a210c2a14617fb7.jpg",
+    "static/media/temoin4.png": "/toukra-universite-accueil/static/media/temoin4.61589638c0ced9188470.png",
+    "static/media/etudian.jpg": "/toukra-universite-accueil/static/media/etudian.60e6a44216ac108d897e.jpg",
+    "static/media/etudiant8.jpg": "/toukra-universite-accueil/static/media/etudiant8.113a8e781d8a748c42f0.jpg",
+    "static/media/etudiant4.jpg": "/toukra-universite-accueil/static/media/etudiant4.f3a34a8385e5ac53ad82.jpg",
+    "static/media/etudiant3.jpg": "/toukra-universite-accueil/static/media/etudiant3.1e0dea9f2966d33e6df1.jpg",
+    "static/media/class2.jpg": "/toukra-universite-accueil/static/media/class2.0b169702d6936fedc35f.jpg",
+    "static/media/professeur6.jpg": "/toukra-universite-accueil/static/media/professeur6.a11d0ffe906ce7f791b2.jpg",
+    "static/media/im6.png": "/toukra-universite-accueil/static/media/im6.40014b17cc21ede78ae2.png",
+    "static/media/temoin3.webp": "/toukra-universite-accueil/static/media/temoin3.2d3ff21f02c83217e464.webp",
+    "static/media/drapeau1.png": "/toukra-universite-accueil/static/media/drapeau1.250c0417b141098a0e42.png",
+    "static/media/class3.jpg": "/toukra-universite-accueil/static/media/class3.4627005062a619f9f36d.jpg",
+    "static/media/professeur7.jpeg": "/toukra-universite-accueil/static/media/professeur7.c25c9688809439138359.jpeg",
+    "static/media/class4.jpeg": "/toukra-universite-accueil/static/media/class4.b13cf74d1a30e5489ade.jpeg",
+    "static/media/etudiant2.jpeg": "/toukra-universite-accueil/static/media/etudiant2.d99287fb97d25880b34f.jpeg",
+    "static/media/etudiant6.jpeg": "/toukra-universite-accueil/static/media/etudiant6.43e13e40d687de1cf99e.jpeg",
     "index.html": "/toukra-universite-accueil/index.html",
-    "main.ba94ce75.css.map": "/toukra-universite-accueil/static/css/main.ba94ce75.css.map",
-    "main.91feb6a1.js.map": "/toukra-universite-accueil/static/js/main.91feb6a1.js.map"
+    "main.1c31c77c.css.map": "/toukra-universite-accueil/static/css/main.1c31c77c.css.map",
+    "main.ccc62e92.js.map": "/toukra-universite-accueil/static/js/main.ccc62e92.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba94ce75.css",
-    "static/js/main.91feb6a1.js"
+    "static/css/main.1c31c77c.css",
+    "static/js/main.ccc62e92.js"
   ]
 }
