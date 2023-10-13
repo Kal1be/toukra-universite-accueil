@@ -7,9 +7,7 @@ function App() {
   return (
    <div>
    <Navbar/>
-<Routes>
-  <Route path='/' element={<Accueil/>} />
-</Routes>
+<Accueil/>
   <Footer/>
    </div>
   )
